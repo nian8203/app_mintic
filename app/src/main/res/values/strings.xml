@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">App MinTic</string>
+
+    <!--strings login-->
+    <string name="user">Correo</string>
+    <string name="pass">Contraseña</string>
+    <string name="btn_login">Ingresar</string>
+
+    <!--strings registro-->
+    <string name="et_id">No. Documento</string>
+    <string name="et_nombre">Nombre</string>
+    <string name="et_correo">Correo</string>
+    <string name="et_conf_correo">Confirmar Correo</string>
+    <string name="et_pass">Contraseña</string>
+    <string name="et_conf_pass">Confirmar Contraseña</string>
+    <string name="btn_registrar">Registrar</string>
+</resources>
