@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1063501401973",
+    "project_id": "app-mintic",
+    "storage_bucket": "app-mintic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063501401973:android:09c87e4117361c5098cd3c",
+        "android_client_info": {
+          "package_name": "com.reto1_2.appmintic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063501401973-u3859nr0u2hlfd835np4lu5k6p5uglfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC99CxPKj380xlZmjcAPlmPSmyvmp5He3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063501401973-u3859nr0u2hlfd835np4lu5k6p5uglfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

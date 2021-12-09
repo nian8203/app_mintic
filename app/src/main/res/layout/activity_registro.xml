@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistroActivity"
+    tools:context=".vista.RegistroActivity"
     android:padding="32dp">
 
     <ImageView
@@ -63,7 +63,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/et_confirmar_correo"
+        android:id="@+id/et_conf_correo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/et_pass"
+            android:id="@+id/et_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -85,7 +85,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/et_confirmar_correo"
+        app:layout_constraintTop_toBottomOf="@id/et_conf_correo"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText

@@ -1,4 +1,4 @@
-package com.reto1_2.appmintic;
+package com.reto1_2.appmintic.vista;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.reto1_2.appmintic.MainActivity;
+import com.reto1_2.appmintic.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -46,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                startActivity(new Intent(LoginActivity.this ,RegistroActivity.class));
+                startActivity(new Intent(LoginActivity.this , RegistroActivity.class));
             }
         });
 

@@ -10,13 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppMinTic">
         <activity
-            android:name=".LostPassActivity"
+            android:name=".vista.EditarPerfilActivity2"
             android:exported="false" />
         <activity
-            android:name=".RegistroActivity"
+            android:name=".vista.PerfilActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".vista.LostPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
